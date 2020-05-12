@@ -16,7 +16,7 @@ public class Application {
         System.out.println();
         System.out.println();
 
-        System.out.printf("Simple test passed %d%%\n", ChargeTest.chargeTest(IronManMark_32));
+        System.out.printf("Simple test passed %d%%\n", ChargeTest.chargeTest(IronManMark_33));
 
 
         System.out.println();

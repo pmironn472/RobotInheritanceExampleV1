@@ -11,18 +11,18 @@ public class CharlieRobot extends BetaRobot {
 
 
     public boolean moveDownLeft() {
-        return super.moveDown() && super.moveLeft();
+        return super.checkCharge() && super.moveDown() && super.moveLeft();
     }
 
     public boolean moveDownRight() {
-        return super.moveDown() && super.moveRight();
+        return super.checkCharge() && super.moveDown() && super.moveRight();
     }
 
     public boolean moveUpLeft() {
-        return super.moveUp() && super.moveLeft();
+        return super.checkCharge() && super.moveUp() && super.moveLeft();
     }
 
     public boolean moveUpRight() {
-        return super.moveUp() && super.moveRight();
+        return super.checkCharge() && super.moveUp() && super.moveRight();
     }
 }
