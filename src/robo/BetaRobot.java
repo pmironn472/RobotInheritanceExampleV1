@@ -8,7 +8,9 @@ public class BetaRobot extends AlphaRobot {
 
     public BetaRobot(String name,String model){
         super(name, model);
-       
+        setX(0);
+        setY(0);
+        setCharge(0);
     }
 
     public void setCharge(int charge){
